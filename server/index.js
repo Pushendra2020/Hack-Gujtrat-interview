@@ -6,7 +6,7 @@ const path = require('path');
 
 // Set environment variables directly
 process.env.PORT = process.env.PORT || 5000;
-process.env.MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://pushendralink2020:E83DT0MU134QO9t6@cluster1.hexrteo.mongodb.net';
+process.env.MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://<Enter user name>:<Enter password>@cluster1.hexrteo.mongodb.net';
 
 const connectDB = require('./config/db');
 // Import routes
